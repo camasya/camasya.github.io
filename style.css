@@ -1,3 +1,13 @@
+@font-face {
+	font-family: henny-penny;
+	src: url(fonts/HennyPenny-Regular.ttf);
+}
+
+@font-face {
+	font-family: lato;
+	src: url(fonts/Lato-Regular.ttf);
+}
+
 body {
 	background-color: lightblue;
 	margin-left: 50px;
@@ -7,11 +17,11 @@ body {
 h1 {
 	color: navy;
 	font-size: 72px;
-	font-family: garamond;
+	font-family: henny-penny;
 }
 
 p {
 	font-size: 36px;
-	font-family: "Comic Sans MS";
+	font-family: lato;
 	
 }
