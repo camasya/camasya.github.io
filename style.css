@@ -8,13 +8,22 @@
 	src: url(fonts/Lato-Regular.ttf);
 }
 
-body {
-	background-color: lightblue;
+html {
+	height: 100%;
+	max-width: 100%;
 }
 
-#content {
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.content {
+	margin: -10px;
+	width: 110%;
 	padding-left: 50px;
 	padding-right: 50px;
+	background-color: lightblue;
 }
 
 h1 {
@@ -25,15 +34,15 @@ h1 {
 	margin: 0;
 }
 
-#nav {
+.nav {
 	color: white;
 	background-color: #800020;
 	text-align: center;
 	font-size: 48px;
 	font-family: henny-penny;
 	position: fixed;
-	width: 100%;
-	margin: -10px;
+	width: 105%;
+	margin-left: -10px;
 	padding: 0;
 }
 
@@ -41,4 +50,20 @@ p {
 	font-size: 36px;
 	font-family: lato;
 	
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("images/bench-min.jpg");
+  
+  /* Full height */
+  height: 100%;
+  min-width: 120%;
+  margin: -10px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: 50% 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
