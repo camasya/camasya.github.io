@@ -10,14 +10,31 @@
 
 body {
 	background-color: lightblue;
-	margin-left: 50px;
-	margin-right: 50px;
+}
+
+#content {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 h1 {
+	padding-top: 100px;
 	color: navy;
-	font-size: 72px;
+	font-size: 36px;
 	font-family: henny-penny;
+	margin: 0;
+}
+
+#nav {
+	color: white;
+	background-color: #800020;
+	text-align: center;
+	font-size: 48px;
+	font-family: henny-penny;
+	position: fixed;
+	width: 100%;
+	margin: -10px;
+	padding: 0;
 }
 
 p {
