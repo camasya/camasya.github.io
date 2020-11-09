@@ -95,8 +95,12 @@ h1 {
 	/* can be put in a seperate class for better control */
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0px 50px;
+	background-position: 50% 50px;
 	/* --------------------------- */
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 	position: fixed;
 	width: 100%;
 	max-width: 1000px;
