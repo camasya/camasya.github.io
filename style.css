@@ -12,13 +12,13 @@ html {
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
 	height: 100%;
 	width: 100%;
 	max-width: 100%;
-	overflow-x: hidden;
 	background-color: #000000;
 }
 
@@ -27,7 +27,7 @@ h1 {
 	font-size: 36px;
 	line-height: 40px;
 	font-family: henny-penny;
-	margin: 0;
+	margin: 0 auto;
 }
 
 .nav {
@@ -75,7 +75,7 @@ h1 {
 	border-radius: 8px;
 	color: black;
 	margin: 0 auto;
-	padding: 30px 35px;
+	padding: 30px;
 	text-align: center;
 }
 
