@@ -19,7 +19,7 @@ html {
 body {
 	height: 100%;
 	width: 100%;
-	max-width: 100%;
+	max-width: 1000px;
 	background-color: #000000;
 	margin: 0 auto;
 }
@@ -64,7 +64,7 @@ h1 {
 	box-sizing: border-box;
 }
 .container--big {
-	height: 200%;
+	height: 150%;
 }
 .container--full {
 	height: 100%;
@@ -84,7 +84,6 @@ h1 {
 .parallax__container {
 	clip: rect(0, auto, auto, 0);
 	height: 100%;
-	margin: 0 auto;
 	left: 0;
 	overflow: hidden;
 	position: absolute;
@@ -94,26 +93,21 @@ h1 {
 }
 .parallax__container .parallax {
 	/* can be put in a seperate class for better control */
-	background-position: 50% 50px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 0px 50px;
 	/* --------------------------- */
 	position: fixed;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
 	width: 100%;
-	max-width: 1440px;
-	margin: 0 auto;
+	max-width: 1000px;
 }
 
 .bg1 {
-	background-image: url("images/bench-min.jpg");
+	background-image: url("images/oldwell-min.jpg");
 }
 
 #bg3 {
-	background-image: url("images/oldwell-min.jpg");
+	background-image: url("images/bench-min.jpg");
 }
 
 
