@@ -62,15 +62,12 @@ h1 {
 }
 .container--big {
 	height: 175vh;
-	margin-bottom: -250px;
 }
 .container--full {
 	height: 100vh;
-	margin-bottom: -120px;
 }
 .container--small {
 	height: 60vh;
-	margin-bottom: -200px;
 }
 .container .content {
 	background: rgba(255, 255, 255, .5);
@@ -79,7 +76,6 @@ h1 {
 	margin: 0 auto;
 	padding: 30px 35px;
 	text-align: center;
-	margin-top: -200px;
 }
 
 .parallax__container {
