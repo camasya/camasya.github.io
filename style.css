@@ -62,13 +62,13 @@ h1 {
 	width: 100%;
 }
 .container--big {
-	height: 175vh;
+	height: 200%;
 }
 .container--full {
-	height: 100vh;
+	height: 100%;
 }
 .container--small {
-	height: 60vh;
+	height: 60%;
 }
 .container .content {
 	background: rgba(255, 255, 255, .5);
@@ -101,6 +101,9 @@ h1 {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	display: block;
 }
 
 .bg1 {
