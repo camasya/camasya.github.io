@@ -81,6 +81,7 @@ h1 {
 .parallax__container {
 	clip: rect(0, auto, auto, 0);
 	height: 100%;
+	margin: 0 auto;
 	left: 0;
 	overflow: hidden;
 	position: absolute;
